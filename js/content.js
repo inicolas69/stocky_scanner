@@ -32,7 +32,6 @@ function calculate_total_quantity() {
 }
 
 function playGoodSound() {
-  console.log("Je suis dans playGoodSound");
   calculate_total_quantity();
   if (total_quantity != precedent_quantity) {
     if (total_quantity != precedent_quantity + 1) {
