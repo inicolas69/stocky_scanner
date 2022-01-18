@@ -1,4 +1,3 @@
-// import sound from "sound/alarm.mp3";
 let interval;
 let total_quantity;
 let sound_played = false;
