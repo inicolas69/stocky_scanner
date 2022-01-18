@@ -20,6 +20,7 @@ function addElement() {
   banner.appendChild(title);
   banner.style.cssText =
     "width:100%;z-index:100;background:#FF3737;text-align:center;font-size:24px;font-weight:700;color:white;padding:10px;";
+  navbar.insertAdjacentElement("beforeend", banner);
 }
 
 function calculate_total_quantity() {
